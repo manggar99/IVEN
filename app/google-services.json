@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "688791671253",
+    "firebase_url": "https://ivenlogin.firebaseio.com",
+    "project_id": "ivenlogin",
+    "storage_bucket": "ivenlogin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688791671253:android:6e2328df4992038e",
+        "android_client_info": {
+          "package_name": "com.example.iven"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688791671253-032pc4uun85cgnmq1uvbots57afu7qem.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.iven",
+            "certificate_hash": "4fc4ddd698a6f71371e8b431bf8adc17d9e5dd82"
+          }
+        },
+        {
+          "client_id": "688791671253-gcj6dsebtc60ibnpmflr7p3c22p2ai2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0exGiFgOgwFli-mO4BadtyQx7zV16to0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688791671253-gcj6dsebtc60ibnpmflr7p3c22p2ai2j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
