@@ -15,24 +15,80 @@ import com.example.iven.utils.Tools;
 
 public class MainActivity extends AppCompatActivity {
 
-    private FloatingActionButton button;
+    private FloatingActionButton button1, button2, button3, button4, button5, button6, button7, button8;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button = (FloatingActionButton) findViewById(R.id.button_kategori_lomba);
-        button = (FloatingActionButton) findViewById(R.id.button_kategori_pengajian);
-        button = (FloatingActionButton) findViewById(R.id.button_kategori_seminar);
-        button = (FloatingActionButton) findViewById(R.id.button_kategori_talkshow);
-        button = (FloatingActionButton) findViewById(R.id.button_kategori_nigtlive);
-        button = (FloatingActionButton) findViewById(R.id.button_kategori_sosial);
-        button = (FloatingActionButton) findViewById(R.id.button_kategori_makanan);
-        button = (FloatingActionButton) findViewById(R.id.button_kategori_workshop);
+        button1 = (FloatingActionButton) findViewById(R.id.button_kategori_lomba);
+        button2 = (FloatingActionButton) findViewById(R.id.button_kategori_pengajian);
+        button3 = (FloatingActionButton) findViewById(R.id.button_kategori_seminar);
+        button4 = (FloatingActionButton) findViewById(R.id.button_kategori_talkshow);
+        button5 = (FloatingActionButton) findViewById(R.id.button_kategori_nigtlive);
+        button6 = (FloatingActionButton) findViewById(R.id.button_kategori_sosial);
+        button7 = (FloatingActionButton) findViewById(R.id.button_kategori_makanan);
+        button8 = (FloatingActionButton) findViewById(R.id.button_kategori_workshop);
 
 
-        button.setOnClickListener(new View.OnClickListener() {
+        button1.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                openActivityLomba();
+            }
+        });
+
+        button2.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                openActivityLomba();
+            }
+        });
+
+        button3.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                openActivityLomba();
+            }
+        });
+
+        button4.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                openActivityLomba();
+            }
+        });
+
+        button5.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                openActivityLomba();
+            }
+        });
+
+        button6.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                openActivityLomba();
+            }
+        });
+
+        button7.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                openActivityLomba();
+            }
+        });
+
+        button8.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
